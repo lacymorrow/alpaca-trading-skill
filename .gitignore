@@ -1,0 +1,37 @@
+# Environment variables (never commit API keys!)
+.env
+.env.local
+.env.*.local
+
+# API credentials
+*.key
+*.secret
+*_credentials.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Build outputs (if any)
+target/
+dist/
+build/
