@@ -4,10 +4,11 @@ An [OpenClaw](https://github.com/openclaw/openclaw) agent skill for trading stoc
 
 ## What it does
 
-- **Trade**: Buy/sell stocks, ETFs, options, and crypto with all order types (market, limit, stop, trailing stop, bracket, OCO, OTO)
-- **Portfolio**: View positions, account balance, buying power, portfolio history
-- **Market Data**: Real-time quotes, bars, snapshots, news, screener (most active, top movers)
-- **Manage**: Orders, watchlists, account configuration
+- **Trade**: Buy/sell stocks, ETFs, and crypto with all order types (market, limit, stop, trailing stop, bracket, OCO, OTO)
+- **Options**: Full options trading — buy/sell calls & puts, covered calls, cash-secured puts, spreads, exercise contracts, option chain lookup & data (Levels 0-3)
+- **Portfolio**: View positions (equity, options, crypto), account balance, buying power, portfolio history, account activities (fills, dividends, transfers, option events)
+- **Market Data**: Real-time & historical quotes, bars, snapshots for stocks, options, and crypto. News, screener (most active, top movers), corporate actions (splits, dividends, mergers)
+- **Manage**: Orders, watchlists, assets, account configuration, market clock & calendar
 
 ## Requirements
 
